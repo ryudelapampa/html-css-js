@@ -1,0 +1,61 @@
+table {
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td,th {
+    border: 1px solid black;
+    
+}
+
+thead {
+    background-color: rgb(0, 6, 125);
+    color: white;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: wheat;
+}
+
+#todo {
+    background-color: blue;
+    width: 10%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2%;
+    margin-top: 5em;
+}
+
+#todo h1 {
+    color: white;
+    text-align: center;
+}
+
+#todo ul {
+    margin: 0;
+    padding: 0;
+
+    justify-content: space-around;
+}
+
+#todo ul li{
+    margin: auto;
+    margin-bottom: 3%;
+    width: 70%;
+    height: 40px;
+
+    background-color: white;
+    color: black;
+    border-radius: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo ul li:hover {
+    background-color: burlywood;
+    font-weight: bolder;
+}
