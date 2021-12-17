@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Bonjour
+        </h1>
+        <h2>Au revoir</h2>
+    </section>
+
+    <script>
+        var sect = document.querySelector('section');
+        var para = document.createElement('p');
+
+        para.textContent = 'Let\'s do this dude ! ';
+        sect.appendChild(para);
+        var text = document.createTextNode(' - mon premier noeud');
+        var linkPara = document.querySelector('p');
+        linkPara.appendChild(text);
+
+    </script>
+</body>
+</html>
