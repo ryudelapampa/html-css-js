@@ -1,0 +1,19 @@
+#calculatrice {
+    margin-top: 20px;
+    border: 1px black solid;
+    width: 350px!important;
+}
+
+#calculatrice input {
+    height: 75px!important;
+}
+
+.affichage {
+    height: auto;
+}
+
+.affichage input {
+    font-size: 2em;
+    text-align: right;
+    align-items: center;
+}
